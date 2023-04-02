@@ -1,8 +1,9 @@
-Aplicação SpringBoot - Gerenciamento de Veículos
+Aplicação SpringBoot - Desafios Tinnova.
+
 Esta é uma aplicação SpringBoot que gerencia informações de veículos. Ela utiliza um banco de dados Postgres para armazenar os dados dos veículos. Além disso, existem também três endpoints adicionais para realizar desafios de programação.
 
 Endpoints
-Abaixo estão os endpoints disponíveis na aplicação.
+Abaixo são os endpoints disponíveis na aplicação.
 
 GET /veiculos: Este endpoint retorna todos os veículos armazenados no banco de dados.
 GET /veiculos?marca={marca}&ano={ano}&cor={cor}: Este endpoint retorna todos os veículos que atendem aos critérios de busca passados como parâmetros.

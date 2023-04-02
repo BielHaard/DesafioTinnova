@@ -53,7 +53,6 @@ public class DesafiosController {
         return vetor;
     }
 
-
     @GetMapping("/fatorial/{numero}")
     public ResponseEntity<Long> calcularFatorial(@PathVariable Long numero) {
         if (numero < 0) {
